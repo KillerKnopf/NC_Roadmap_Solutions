@@ -1,0 +1,45 @@
+[package]
+name = "arrays_and_hashing"
+version = "0.1.0"
+edition = "2021"
+description = "Solutions for the coding challenges of the 'Arrays & Hashing' category"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "duplicate"
+path = "src/bin/contains_duplicate.rs"
+
+[[bin]]
+name = "v_anagram"
+path = "src/bin/valid_anagram.rs"
+
+[[bin]]
+name = "two_sum"
+path = "src/bin/two_sum.rs"
+
+[[bin]]
+name = "g_anagrams"
+path = "src/bin/group_anagrams.rs"
+
+[[bin]]
+name = "top_k"
+path = "src/bin/top_k_frequent_elements.rs"
+
+[[bin]]
+name = "product_of_array"
+path = "src/bin/product_of_array_except_self.rs"
+
+[[bin]]
+name = "sudoku"
+path = "src/bin/valid_sudoku.rs"
+
+[[bin]]
+name = "encode_decode"
+path = "src/bin/encode_and_decode_strings.rs"
+
+[[bin]]
+name = "longest_sequence"
+path = "src/bin/longest_consecutive_sequence.rs"

@@ -1,0 +1,2 @@
+[workspace]
+members = ["arrays_and_hashing", "two_pointers", "stack"]

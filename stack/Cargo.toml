@@ -1,0 +1,37 @@
+[package]
+name = "stack"
+version = "0.1.0"
+edition = "2021"
+description = "Solutions for the coding challenges of the 'Stack' category"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "v_parentheses"
+path = "src/bin/valid_parentheses.rs"
+
+[[bin]]
+name = "min"
+path = "src/bin/min_stack.rs"
+
+[[bin]]
+name = "eval"
+path = "src/bin/evaluate_reverse_polish_notation.rs"
+
+[[bin]]
+name = "g_parentheses"
+path = "src/bin/generate_parentheses.rs"
+
+[[bin]]
+name = "temps"
+path = "src/bin/daily_temperatures.rs"
+
+[[bin]]
+name = "fleet"
+path = "src/bin/car_fleet.rs"
+
+[[bin]]
+name = "largest_rect"
+path = "src/bin/largest_rectangle_in_histogram.rs"
